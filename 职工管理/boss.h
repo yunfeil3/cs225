@@ -3,18 +3,18 @@
 using namespace std;
 #include "worker.h"
 
-//ÀÏ°åÀà
+//è€æ¿ç±»
 class Boss :public Worker
 {
 public:
 
-	//¹¹Ôìº¯Êı
+	//æ„é€ å‡½æ•°
 	Boss(int id, string name, int dId);
 
-	//ÏÔÊ¾¸öÈËĞÅÏ¢
+	//æ˜¾ç¤ºä¸ªäººä¿¡æ¯
 	virtual void showInfo();
 
-	//»ñÈ¡¸ÚÎ»Ãû³Æ
+	//è·å–å²—ä½åç§°
 	virtual string getDeptName();
 
 };
