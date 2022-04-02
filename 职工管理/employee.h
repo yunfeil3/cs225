@@ -1,4 +1,4 @@
-//ÆÕÍ¨Ô±¹¤ÎÄ¼ş
+//æ™®é€šå‘˜å·¥æ–‡ä»¶
 #pragma once
 #include <iostream>
 using namespace std;
@@ -8,13 +8,13 @@ class Employee :public Worker
 {
 public:
 
-	//¹¹Ôìº¯Êı
+	//æ„é€ å‡½æ•°
 	Employee(int id , string name , int dId);
 
-	//ÏÔÊ¾¸öÈËĞÅÏ¢
+	//æ˜¾ç¤ºä¸ªäººä¿¡æ¯
 	virtual void showInfo();
 
-	//»ñÈ¡¸ÚÎ»Ãû³Æ
+	//è·å–å²—ä½åç§°
 	virtual string getDeptName();
 
 };
